@@ -14,9 +14,7 @@ use App\Http\Controllers\ProfesseurController;
 |
 */
 
-Route::get('/test', function () {
-    return response()->json(['mehdi lldldldld l9wad' => 'l9awad offclia']);
-});
+
 
 
 Route::post('/professeurs', [ProfesseurController::class, 'store']);
